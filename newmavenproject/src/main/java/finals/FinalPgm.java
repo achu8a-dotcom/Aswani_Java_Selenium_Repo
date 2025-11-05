@@ -4,9 +4,11 @@ public class FinalPgm {
 
 	final int a=10;
 	
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+	//a=20;// cannot change final variable value
+	
+	final void addnum()
+	{
+		System.out.println("Addition");
 	}
-
+	
 }
