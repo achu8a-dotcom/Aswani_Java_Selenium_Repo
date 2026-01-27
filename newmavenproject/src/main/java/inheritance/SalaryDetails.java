@@ -1,21 +1,21 @@
-package Inheritance;
+package inheritance;
 import java.util.Scanner;
 
 public class SalaryDetails {
 	
-	protected double basic;
-	protected double deduction;
-	protected double bonus;
+	double basic;
+	double deduction;
+	double bonus;
 	
 	public void salary()
 	{
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Enter the Basic pay");
-		double basic=scan.nextDouble();
+		basic=scan.nextDouble();
 		System.out.println("Enter the Deduction Amount");
-		double deduction=scan.nextDouble();
+		deduction=scan.nextDouble();
 		System.out.println("Enter the Bonus Amount");
-		double bonus=scan.nextDouble();
+		bonus=scan.nextDouble();
 		scan.close();
 	}
 
